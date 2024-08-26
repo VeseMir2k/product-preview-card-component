@@ -1,0 +1,28 @@
+:root {
+  --white-color: #fff;
+  --aurometal-saurus-color: #6c7289;
+  --deep-aquamarine-color: #3d8168;
+  --deep-aquamarine-hover-color: #1a4032;
+  --gunmetal-color: #1c232b;
+  --cream-color: #f2eae2;
+  --montserrat-font: 'Montserrat', sans-serif;
+  --fraunces-font: 'Fraunces', serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--cream-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 16px;
+}
