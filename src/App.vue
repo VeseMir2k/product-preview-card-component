@@ -1,5 +1,5 @@
 <template>
-  <section class="card">
+  <main class="card">
     <div class="card__header">
       <picture>
         <source media="(min-width:632px)" srcset="./images/image-product-desktop.jpg" />
@@ -18,7 +18,7 @@
         <img class="card__icon" src="./images/icon-cart.svg" alt="" />Add to Cart
       </button>
     </div>
-  </section>
+  </main>
 </template>
 
 <style scoped>
