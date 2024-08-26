@@ -1,12 +1,12 @@
 <template>
   <section class="card">
-    <header class="card__header">
+    <div class="card__header">
       <picture>
         <source media="(min-width:632px)" srcset="./images/image-product-desktop.jpg" />
-        <img class="card__image" src="./images/image-product-mobile.jpg" alt=""
+        <img class="card__image" src="./images/image-product-mobile.jpg" alt="image product"
       /></picture>
-    </header>
-    <main class="card__main">
+    </div>
+    <div class="card__main">
       <span class="card__category">PERFUME</span>
       <h1 class="card__title">Gabrielle Essence Eau De Parfum</h1>
       <p class="card__description">
@@ -17,7 +17,7 @@
       <button class="card__button">
         <img class="card__icon" src="./images/icon-cart.svg" alt="" />Add to Cart
       </button>
-    </main>
+    </div>
   </section>
 </template>
 
